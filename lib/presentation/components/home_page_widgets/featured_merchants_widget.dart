@@ -10,6 +10,7 @@ class FeaturedMerchants extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /// merchants list
     final merchants = <FeaturedMerchantsModel>[
       FeaturedMerchantsModel(name:"Justrite",logo:AppAssets.justRitesLogo,color: AppColors.kDarkBlue),
       FeaturedMerchantsModel(name:"Orile Restaurant",logo:AppAssets.orileLogo,color: AppColors.kBlack),

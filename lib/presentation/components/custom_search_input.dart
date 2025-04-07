@@ -48,6 +48,7 @@ class CustomSearchBar extends StatelessWidget {
           ),
         ),
         const SizedBox(width: 12),
+        /// scan button
         Container(
           height: 56,
           width: 56,
@@ -60,7 +61,6 @@ class CustomSearchBar extends StatelessWidget {
               AppAssets.scanIcon,
             ),
             onPressed: () {
-              // Handle scan action
             },
           ),
         ),

@@ -19,17 +19,23 @@ class HomePage extends ConsumerStatefulWidget {
 class _HomePageState extends ConsumerState<HomePage> {
   @override
   Widget build(BuildContext context) {
+    /// provider for products
     final provider = ref.watch(productsViewmodelProvider.notifier);
     return  Scaffold(
       backgroundColor: AppColors.kWhite,
       body: SingleChildScrollView(
         child: Column(
           children: [
+            /// page header
             HomeHeader(),
+
+            /// search bar
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20.0,vertical: 20),
               child: CustomSearchBar(),
             ),
+
+            /// product list
             Container(
               height: fullHeight(context) * .65,
               width: fullWidth(context),
@@ -64,6 +70,7 @@ class _HomePageState extends ConsumerState<HomePage> {
               ),
             ),
             Gap(20),
+            /// featured merchants
             FeaturedMerchants()
           ],
         ),
