@@ -1,8 +1,5 @@
 import 'package:credpal_assessment/config/app_colors.dart';
 import 'package:credpal_assessment/data/app_assets.dart';
-import 'package:credpal_assessment/presentation/components/custom_text.dart';
-import 'package:credpal_assessment/presentation/components/gap.dart';
-import 'package:credpal_assessment/utils/screen_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
