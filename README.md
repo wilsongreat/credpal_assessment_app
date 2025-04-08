@@ -1,4 +1,3 @@
-# credpal_assessment
 
 ## Run credpal_assessment
 
